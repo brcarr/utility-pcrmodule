@@ -1,0 +1,22 @@
+<div>
+    {{#each cards}}
+    <div class="card preview-left">
+        <div class="layout-row">
+            <div class="col-4 preview thumb">
+                <img src="{{image}}"/>
+            </div>
+            <div class="summary col-8">
+                <div class="layout-row">
+                    <h1>{{title}}</h1>
+                    {{#each values}}
+                    <div class="col-{{../dataColumnSize}}">
+                        <span class="meta-label">{{label}}</span>
+                        <span>{{value}}</span>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>

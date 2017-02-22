@@ -1,0 +1,30 @@
+,
+        "blar": [
+            {
+                "connectors": 
+                
+                {
+                ,
+            {
+                "name": "wiki",
+                "label": "Wiki Search",
+                "rootUrl": "http://perexp.com:8888",
+                "path": "/rs/wiki/",
+                "parameters": "",
+                "parseValue": "revisions",
+                "autoRun": false,
+                "contextSearchEnabled": false,
+                "contextSearchField": null,
+                "plan": [
+                    {
+                        "fieldName": "name",
+                        "fieldPath": "name",
+                        "fieldLabel": "Name",
+                        "fieldType": "1",
+                        "fieldIsVisible": true,
+                        "fieldIsSearchable": true,
+                        "fieldSearchParameters": null
+                    }
+                ]
+            },
+            

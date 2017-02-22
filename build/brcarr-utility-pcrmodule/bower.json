@@ -1,0 +1,13 @@
+{
+    "name": "brcarr-utility-pcrmodule",
+    "version": "0.1.0",
+    "main": "src/exports",
+    "private": true,
+    "dependencies": {
+        "framework-controls": "^3",
+        "framework-core": "^2",
+        "framework-shell": "^3",
+        "psw-framework-application-context": "^2",
+        "psw-framework-notifications": "^2"
+    }
+}

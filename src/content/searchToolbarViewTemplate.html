@@ -1,0 +1,15 @@
+<div class="control-group">
+    <div class="search-alert"></div>
+    <div >
+        <select class="search-field" id="connector-search-field">
+            {{#each searchColumns}}
+            <option value="{{this.propertyName}}">{{this.name}}</option>
+            {{/each}}
+        </select>
+        <input class="search-input" id="connector-search-input" type="text" value="{{searchString}}" placeholder="Enter a search value">
+        <button class="primary">
+            <span class="icon icon-16 icon-data_storage" aria-hidden="true"></span>
+            Search
+        </button>
+    </div>
+</div>

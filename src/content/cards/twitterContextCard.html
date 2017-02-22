@@ -1,0 +1,27 @@
+<div class="card card--list-card card--preview-left card--full-bleed">
+    <div class="layout-row">
+        <div class="col-4 card__thumb card__thumb-icon">
+            <span class="icon icon-64 icon-twitter"></span>
+        </div>
+        <div class="col-8 col-offset-4 card__content">
+            <h2 class="card__header">{{searchString}}</h2>
+            <span class="property-label">We found {{count}} related tweets.</span>
+        </div>
+    </div>
+    <div class="card__expand-toggle collapsed" data-expander>
+        <span class="icon icon-16 icon-disclosure_up_triangle" aria-hidden="true"></span>
+    </div>
+    <ul class="card__expand-list expandable collapsed">
+        {{#each items}}
+        <li>
+            <div class="avatar">
+                <a href="https://twitter.com/{{screenName}}" target="_blank"><img src="{{avatar}}" title="@{{screenName}}"></a>
+            </div>
+            <div class="tweet">
+                <span class="meta-user"><span class="icon-user" aria-hidden="true"></span> <a href="https://twitter.com/{{screenName}}" target="_blank">{{name}}</a>&nbsp;{{created}}</span>
+                <span>{{text}}</span>
+            </div>
+        </li>
+        {{/each}}
+    </ul>
+</div>

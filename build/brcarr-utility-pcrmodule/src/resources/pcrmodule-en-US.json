@@ -1,0 +1,9 @@
+{
+    "pcrModule": {
+        "title": "PCR Module",
+        
+        "mainView": {
+            "searchButtonLabel": "Search"
+        }
+    }
+}

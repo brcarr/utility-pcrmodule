@@ -1,0 +1,15 @@
+{
+    "root": true,
+    "extends": "./node_modules/eslint-config-lexmark/eslint.json",
+    "env": {
+        "browser": true,
+        "amd": true,
+        "jasmine": true
+    },
+    "globals": {
+        "sinon": false
+    }, 
+    "rules": {
+        //You can overwrite the default rules configuration here
+    }
+}

@@ -1,0 +1,24 @@
+<div>
+    {{#each cards}}
+        <div class="card card-preview-left card--full-bleed card-{{className}}">
+            <div class="layout-row">
+                <div class="card__thumb col-4">
+                    <span class="icon icon-64 icon-{{className}}"></span>
+                </div>
+                <div class="card__summary col-8 col-offset-4">
+                    <h2 class="card__header">{{title}}</h2>
+                    <p class="card__description">{{content}}</p>
+                    {{#each values}}
+                            <div class="properties-item col-12">
+                                <span class="property-label">{{label}}</span>
+                                <span class="property-value">{{value}}</span>
+                            </div>
+                            {{/each}}
+                    {{#each actions}}
+                    <button>{{this}}</button>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    {{/each}}
+</div>

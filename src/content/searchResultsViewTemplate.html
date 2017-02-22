@@ -1,0 +1,15 @@
+<div class="zero-state">
+    {{#if isLoading}}
+        Searching {{label}} for data that matches on "{{searchString}}"
+    {{/if}}
+    {{#if error}}
+        There is a problem with {{label}}. Please contact your administrator and try again later.
+    {{/if}}
+    {{#if noResults}}
+        We couldn't find anything matching on "{{searchString}}".
+        Please refine your search.
+    {{/if}}
+    {{#if newSearch}}
+        There is nothing here. Perform a 'Search' to retrieve data.
+    {{/if}}
+</div>

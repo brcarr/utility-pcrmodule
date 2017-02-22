@@ -1,0 +1,25 @@
+<div class="card patient-categories list-card preview-left full-bleed animated bounce-in-left">
+    <div class="layout-row">
+        <div class="col-4 preview thumb icon icon-twitter"></div>
+        <div class="col-8 col-offset-4">
+            <h1>{{searchString}}</h1>
+            <span class="meta-label">We found {{count}} related tweets.</span>
+        </div>
+    </div>
+    <div class="card-expand-toggle collapsed" data-expander data-expand-target=".results-list">
+        <span class="icon-16 icon-disclosure_up_triangle" aria-hidden="true"></span>
+    </div>
+    <ul class="results-list expandable collapsed">
+        {{#each items}}
+        <li class="clearfix">
+            <div class="avatar">
+                <a href="https://twitter.com/{{screenName}}" target="_blank"><img src="{{avatar}}" title="@{{screenName}}"></a>
+            </div>
+            <div class="tweet">
+                <span class="meta-user"><span class="icon-user" aria-hidden="true"></span> <a href="https://twitter.com/{{screenName}}" target="_blank">{{name}}</a>&nbsp;{{created}}</span>
+                <span>{{text}}</span>
+            </div>
+        </li>
+        {{/each}}
+    </ul>
+</div>

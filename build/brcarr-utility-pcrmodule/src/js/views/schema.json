@@ -1,0 +1,88 @@
+{
+    this: {
+        connectors: [
+            {
+                name: "",
+                label: "",
+                url: "",
+                view: "",
+                collection: "",
+                maps: [
+                    {
+                        "default": {
+                            "name1": "value.1",
+                            "name2": "value.2"
+                        }
+                    }
+                ]
+            }
+        ],
+
+    },
+    this: {
+        connectors: [
+            {
+                "contextCard": {
+                    "cardType": "",
+                    "basicCard": {
+                        "cardHeader": "",
+                        "contextMenu": null,
+                        "headerIcon": "",
+                        "cardBody": "",
+                        "actions": [
+                            {
+                                "cssClass": "",
+                                "buttonText": ""
+                            }
+                        ]
+                    },
+                    "countCard": {
+                        "color": "",
+                        "icon": "",
+                        "count": null,
+                        "label": ""
+                    },
+                    "previewLeftCard": {
+                        "image": "",
+                        "title": "",
+                        "values": [
+                            {
+                                "label": "",
+                                "value": ""
+                            }
+                        ]
+                    },
+                    "twitterContextCard": {
+                        "title": "",
+                        "description": "",
+                        items: [
+                            {
+                                "screenName": "",
+                                "avatar": "",
+                                "name": "",
+                                "created": "",
+                                "text": ""
+                            }
+                        ]
+                    }                    
+                },
+                "contextSearchEnabled": true,
+                "contextSearchField": "",
+                "name": "",
+                "label": "",
+                "rootUrl": "",
+                "path": "",
+                "parameters": "",
+                "pareseValue": "",
+                "plan": [
+                    {
+                        "name": "",
+                        "label": "",
+                        "type": "",
+                        "searchable": false
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+<div class="card">
+    {{#if contextMenu}}<button class="card-context-menu containerless icon-16 icon-dots_vertical"></button>{{/if}}
+    {{#if cardHeader}}
+    <h1>{{#if headerIcon}}<span class="{{headerIcon}}"></span> {{/if}}{{cardHeader}}</h1>
+    {{/if}}
+    {{#if cardBody}}
+    <div class="card-body">
+        {{cardBody}}
+    </div>
+    {{/if}}
+    {{#if actions}}
+    <div class="card-action-footer">
+        {{#each actions}}
+            <button class="{{cssClass}}">{{buttonText}}</button>
+        {{/each}}
+    </div>
+    {{/if}}
+</div>

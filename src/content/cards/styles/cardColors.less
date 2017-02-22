@@ -1,0 +1,84 @@
+@red: #d1202f;
+@light-red: #ffedef;
+@green: #72bf44;
+@light-green: #efffe5;
+@dark-green: #008000;
+@blue: #008dd0;
+@dark-blue: #23376e;
+@light-blue: #e9f8ff;
+@orange: #f67b00;
+@purple: #5b2c83;
+@yellow: #fdb913;
+@light-yellow: #fff6df;
+@dark-gray: #333;
+@middle-gray: #666;
+@light-gray: #ddd;
+
+.card {
+    &.orange, &.green, &.blue, &.purple, &.red, &.yellow {
+        color: #fff;
+        border: none;
+    }
+
+    &.orange { background-color: @orange; }
+    &.purple { background-color: @purple; }
+    &.yellow { background-color: @yellow; }
+    &.green { background-color: @green; }
+    &.blue { background-color: @blue; }
+    &.red { background-color: @red; }
+
+    /* Alert style cards */
+    &.info, &.warning, &.success, &.error {
+        p {
+            margin: 0 0 5px 0;
+        }
+
+        h1 {
+            padding-bottom: 0;
+        }
+    }
+
+    &.info {
+        border-color: @blue;
+        background-color: @light-blue;
+
+        .preview.icon {
+            background-color: @blue;
+            color: @light-blue;
+            border-right-color: @blue !important;
+        }
+    }
+
+    &.warning {
+        border-color: @yellow;
+        background-color: @light-yellow;
+
+        .preview.icon {
+            background-color: @yellow;
+            color: @light-yellow;
+            border-right-color: @yellow !important;
+        }
+    }
+
+    &.success {
+        border-color: @dark-green;
+        background-color: @light-green;
+
+        .preview.icon {
+            background-color: @dark-green;
+            color: @light-green;
+            border-right-color: @dark-green !important;
+        }
+    }
+
+    &.error {
+        border-color: @red;
+        background-color: @light-red;
+
+        .preview.icon {
+            background-color: @red;
+            color: @light-red;
+            border-right-color: @red !important;
+        }
+    }
+}

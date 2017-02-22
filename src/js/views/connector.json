@@ -1,0 +1,89 @@
+{
+    connector: {
+        state: {
+            autorun: null,
+            context: {},
+            contextCard: {
+                cardType: "",
+                basicCard: {
+                    cardHeader: "",
+                    contextMenu: null,
+                    headerIcon: "",
+                    cardBody: "",
+                    actions: [
+                        {
+                            cssClass: "",
+                            buttonText: ""
+                        }
+                    ]
+                },
+                countCard: {
+                    color: "",
+                    icon: "",
+                    count: null,
+                    label: ""
+                },
+                previewLeftCard: {
+                    image: "",
+                    title: "",
+                    values: [""]
+                },
+                twitterContextCard: {
+                    title: "",
+                    description: "",
+                    items: [
+                        {
+                            screenName: "",
+                            avatar: "",
+                            name: "",
+                            created: "",
+                            text: ""
+                        }
+                    ]
+                }
+            },
+            contextCardElement: {},
+            contextSearchEnabled: null,
+            contextSettings: [
+                {
+                    contextSource: "",
+                    contextProperty: "",
+                    searchField: ""
+                }
+            ],            
+            collection: {},
+            columns: [],
+            columnsAll: [],
+            desription: "",
+            error: null,
+            isLoading: "",
+            label: "",
+            name: "",
+            newSearch: null,
+            notification: {},
+            parameters: "",
+            parseValue: "",
+            path: "",
+            plan: [
+                {
+                    fieldIsSearchable: "",
+                    fiedIsVisible: "",
+                    fieldLabel: "",
+                    fieldName: "",
+                    fieldPath: "",
+                    fieldSearchParameters: "",
+                    fieldType: ""
+                }
+            ],
+            queryParameters: [
+                {
+                    name: "",
+                    value: ""
+                }
+            ],
+            rootUrl: "",
+            searchColumns: [],
+            searchSource: ""
+        }
+    }
+}

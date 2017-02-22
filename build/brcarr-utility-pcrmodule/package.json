@@ -1,0 +1,19 @@
+{
+    "name": "brcarr-utility-pcrmodule",
+    "version": "0.2.0",
+    "main": "src/exports",
+    "private": true,
+    "scripts": {
+        "build": "gulp clean && gulp build",
+        "test:system": "echo No system tests yet"
+    },
+    "devDependencies": {
+        "del": "~2.2.0",
+        "gulp": "~3.9.0",
+        "gulp-eslint": "~1.1.1",
+        "gulp-load-plugins": "~1.2.0",
+        "framework-require-plugins": "git+https://pswgithub.rds.lexmark.com/ClientFramework/framework-require-plugins.git",
+        "lexmark-package-build": "git+https://pswgithub.rds.lexmark.com/ClientFramework/lexmark-package-build.git",
+        "eslint-config-lexmark": "git+https://pswgithub.rds.lexmark.com/ClientFramework/eslint-config-lexmark.git"
+    }
+}

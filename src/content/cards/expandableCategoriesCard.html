@@ -1,0 +1,21 @@
+<div class="card patient-categories list-card preview-left full-bleed">
+    <div class="layout-row">
+        <div class="col-4 preview thumb icon {{iconClass}}"></div>
+        <div class="col-8 col-offset-4">
+            <h1>{{title}}</h1>
+            <span class="meta-label">{{description}}</span>
+        </div>
+    </div>
+    <div class="card-expand-toggle patient-categories-toggle collapsed" data-expander data-expand-target=".patient-cats-list">
+        <span class="icon-16 icon-disclosure_up_triangle" aria-hidden="true"></span>
+    </div>
+    <ul class="patient-cats-list expandable collapsed">
+        {{#each items}}
+        <li class="clearfix">
+            <span class="icon-16 {{iconClass}}" aria-hidden="true" style="background-color:{{color}};"></span>
+            <span>{{label}}</span>
+            <span class="badge">{{count}}</span>
+        </li>
+        {{/each}}
+    </ul>
+</div>

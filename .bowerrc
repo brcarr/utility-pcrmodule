@@ -1,0 +1,7 @@
+{
+    "registry": "http://devrepositoryd00.pvi.com:8181/content/api/bower/bower",
+    "resolvers": [
+        "bower-art-resolver"
+    ],
+    "directory": "packages"
+}
